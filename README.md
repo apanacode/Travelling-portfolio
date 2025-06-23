@@ -4,7 +4,7 @@ A responsive and visually engaging travel-themed portfolio website built using *
 
 ## 📸 Live Preview
 *(Add your GitHub Pages link here after deploying, e.g.,)*  
-[Live Demo](https://yourusername.github.io/travel-portfolio)
+[Live Demo](https://apanacode.github.io/Travelling-portfolio/)
 
 ---
 
