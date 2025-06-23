@@ -3,7 +3,7 @@
 A responsive and visually engaging travel-themed portfolio website built using **HTML** and **CSS**. This project showcases different sections like **Home**, **Services**, **About Us**, and **Gallery**, simulating a real-world travel agency layout.
 
 ## 📸 Live Preview
-*(Add your GitHub Pages link here after deploying, e.g.,)*  
+
 [Live Demo](https://apanacode.github.io/Travelling-portfolio/)
 
 ---
