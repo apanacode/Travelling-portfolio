@@ -1,0 +1,180 @@
+body{
+  margin: 0;
+}
+
+.header{
+ height: 50px;
+ display: flex;
+  justify-content: space-between;
+ flex-wrap: wrap;
+ 
+}
+
+.icon{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+ul{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+gap: 5px;  
+}
+/* .imageheader{
+height: 50px;
+display: flex;
+} */
+.imageheader{
+  max-width: 50px;
+}
+.menu{
+  margin-right: 10px;
+}
+
+li{
+  padding: 5px;
+  border-radius: 2px;
+  transition: transform 1s, background-color 1s;
+
+}
+
+li:hover{
+  transform: scale(1.1);
+  background-color: navajowhite;
+  border-bottom: black solid;
+  cursor: pointer;
+}
+
+li a{
+  text-decoration: none;
+  color: black;
+}
+.headerTitle{
+  font-weight: bolder;
+}
+
+.Home{
+
+  background-image:url(image1.jpg) ;
+  height: 650px;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  text-align: center;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  
+}
+.Home h2
+{
+  color: rgb(246, 105, 105);
+  font-family: papyrus;
+}
+.Home p{
+  font-weight: bold;
+}
+.content #servicesheading{
+  text-align: center;
+
+}
+
+.Services{
+
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.card1,.card2,.card3,.c1,.c2,.c3{
+border: 1px solid black;
+border-radius: 5px;
+max-width: 300px;
+text-align: center;
+cursor: pointer;
+}
+
+.aboutus{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  background-color: aliceblue;
+  padding: 10px;
+}
+
+.side_img{
+  max-width: 500px;
+
+}
+.sidematter{
+  max-width: 500px;
+  text-align: justify;
+}
+.Gallery{
+  margin-top: 20px;
+}
+.gallery{
+  position: relative;
+}
+.g1,.g2{
+  max-width: 400px;
+  gap: 10px;
+}
+.galleryheading{
+  position: absolute;
+  margin-top: 100px;
+ margin-left: 880px;
+ 
+}
+
+.gallerydiv2{
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+.gallerydiv1 img{
+  transition: transform 1s;
+}
+.gallerydiv1 img:hover{
+  transform: scale(1.1);
+  border: 1px solid black;
+  border-radius: 5px;
+
+}
+.gallerydiv2 img{
+  transition: transform 1s;
+}
+
+.gallerydiv2 img:hover{
+  transform: scale(1.1);
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.footer{
+  margin-top: 10px;
+  background-color:rgb(40, 16, 16);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.sideheading{
+  font-weight: bolder;
+  padding: 10px;
+  text-align: center;
+}
+
+.fAddress{
+  padding: 10px;
+}
+
